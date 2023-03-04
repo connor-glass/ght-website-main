@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&display=swap");
+
+* {
+  
+}
+body {
+  margin: 0;
+  background-image: url('WebsiteBackground2.png');
+  background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.home h1{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 50px;
+  margin: 0 center;
+  color:#ffffff;
+  text-align: center;
+  padding-left: 25px;
+  padding-top: 150px;
+  margin-bottom: 100px;
+
+}
+.home p{
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(0,0,0,0.5);
+  margin: 0 auto;
+  padding: 25px 25px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  border-color: #ffffff;
+  color:#ffffff;
+  line-height: 2;
+  text-align: left;
+  max-width: 40%;
+  font-size: 20px; 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App {
+  text-align: center;
+}
+
+.navbar {
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  max-width: 1900px;
+  margin: 0 auto;
+  border-bottom: 1px solid #ffffff;
+}
+.navbar .logo img {
+  align-items: left;
+  max-height: 60px;
+  max-width: 100%;
+}
+.navbar h1 {
+  color: #ffffff;
+  text-align: left;
+  border-color: #ffffff;
+  border-style: solid;
+}
+.navbar .links {
+  margin-left: auto;
+  align-items: right;
+  font-size: 20px;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px 10px;
+  color: #ffffff;
+  background-color: rgb(0,0,0,0.5);;
+  border-radius: 8px;
+}
+.navbar a:hover {
+  color: #33cccc;
+}
+.about-us-header{
+  text-align: left;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 30px;
+  margin: 0 auto;
+  margin-left: 380px;;
+  color:#ffffff;
+  padding-top: 50px;
+  margin-bottom: 50px;
+
+}
+.about-us{
+  background-color: rgb(0,0,0,0.5);
+  max-width: 60%;
+  margin: 0 auto;
+  font-family: Roboto, san serif;
+  color:#ffffff;
+  text-align: left;
+  font-size: 20px;
+  line-height: 2;
+  padding: 25px 25px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  border-color: #ffffff;
+
+}
+
+
+.contact h1{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 50px;
+  margin: 0 center;
+  color:#ffffff;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+
+}
+.contact h2{
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(0,0,0,0.5);
+  margin: 0 auto;
+  padding: 25px 25px;
+  border-width: 1px;
+  border-radius: 8px;
+  border-color: #ffffff;
+  color:#ffffff;
+  line-height: 2;
+  text-align: center;
+  max-width: 40%;
+  font-size: 30px; 
+}
+.request-form h1{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 50px;
+  margin: 0 center;
+  color:#ffffff;
+  text-align: center;
+  padding-left: 25px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+
+}
+.request-form {
+  margin: 0 auto;
+  padding-top: 50px;
+  max-width: 400px;
+  text-align: center;
+}
+.request-form {
+  color: #ffffff;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.request-form label {
+  font-family: Roboto, san serif;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  text-align: left;
+  display: block;
+  color: #ffffff;
+}
+
+
+.name, .email, textarea {
+  width: 100%;
+  font-family: Roboto, san serif;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: block;
+}
+form .submit-button {
+  background: #33cccc;
+  color: #ffffff;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+}
+form .name{
+  margin-bottom: 20px;
+}
+
+.login {
+  margin: 0 auto;
+  max-width: 400px;
+  text-align: center;
+}
+.login label {
+  font-family: Roboto, san serif;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  text-align: left;
+  display: block;
+  color: #ffffff;
+
+}
+.login h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 50px;
+  margin: 0 center;
+  color:#ffffff;
+  text-align: center;
+  padding-left: 25px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+.login input, .login textarea, .login select {
+  width: 100%;
+  font-family: Roboto, san serif;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: block;
+}
+
+
+
+.login button {
+  background: #33cccc;
+  color: #ffffff;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.login button:hover {
+  background-color: #009999;
+}
+
+
+
