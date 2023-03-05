@@ -2,7 +2,7 @@
   "name": "ghtwebsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "connor-glass.github.io",
+  "homepage": "https://connor-glass.github.io/ght-website-main",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
