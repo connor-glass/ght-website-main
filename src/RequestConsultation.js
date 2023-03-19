@@ -13,6 +13,8 @@ const RequestConsultation = () => {
       }, (error) => {
           console.log(error.text);
       });
+      e.target.reset();
+      alert('Message has been sent!')
   };
 
   return (
@@ -23,9 +25,9 @@ const RequestConsultation = () => {
     
         <form ref={form} onSubmit={sendEmail}>
           <label className="name-label">Name</label>
-          <input type="text" className="name" />
+          <input type="text" className="name" name='name'/>
           <label>Email</label>
-          <input type="email" className="email" />
+          <input type="email" className="email" name='email'/>
           <label>Message</label>
           <textarea name="message" />
           <input type="submit" value="Submit" className='submit-button' />
